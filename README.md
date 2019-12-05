@@ -23,6 +23,13 @@ The mazes are stored in a large text file (45 MB). For this reason, it is zipped
 Training can then be performed by running `train_mapnet.py`. Run `train_mapnet.py --help` for command-line options and their explanation.
 
 
+## Visualization
+
+Plots and tensor visualizations (mostly heatmaps of the joint position-orientation probability, as well as the maps) from OverBoard:
+
+![Screenshot](https://github.com/jotaf98/mapnet/raw/master/data/screenshot.png)
+
+
 # Author
 
 [João F. Henriques](http://www.robots.ox.ac.uk/~joao/)
