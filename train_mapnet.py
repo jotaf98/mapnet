@@ -1,5 +1,5 @@
 
-import argparse, os, sys, random, json
+import argparse, os, random
 from time import time
 
 import torch as t
@@ -110,7 +110,7 @@ def main():
   parser.add_argument("-output-dir", default='data/mapnet', help="Output directory where results will be stored (point OverBoard to this location)")
   parser.add_argument("-device", default="cuda:0", help="Device, cpu or cuda")
   parser.add_argument("-data-loaders", default=8, type=int, help="Number of asynchronous worker threads for data loading")
-  parser.add_argument("-epochs", default=10, type=int, help="Number of training epochs")
+  parser.add_argument("-epochs", default=40, type=int, help="Number of training epochs")
   parser.add_argument("-bs", default=100, type=int, help="Batch size")
   parser.add_argument("-lr", default=1e-3, type=float, help="Learning rate")
   parser.add_argument("--no-bn", dest="bn", action="store_false", help="Disable batch normalization")

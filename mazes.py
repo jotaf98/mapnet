@@ -1,5 +1,4 @@
 
-import os
 from random import randint, seed
 from math import pi, cos, sin, ceil
 from time import time
